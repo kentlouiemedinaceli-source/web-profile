@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kent Louie | Portfolio</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Skills</a>
+            <a href="#portfolio">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Kent Louie</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I'm a passionate frontend developer who enjoys turning creative ideas into responsive and interactive web designs. I focus on clean layouts, smooth animations, and simple user experiences that bring websites to life.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-discord-alt'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/kent.png" alt="Kent Louie Profile">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/kent.png" alt="About Kent Louie">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Hi, I’m Kent Louie. I’m currently studying Information Technology and I’m passionate about web design and development. I enjoy coding interfaces that look modern and work smoothly on any device. I also love learning new tools and exploring creative ways to solve design problems.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>I create responsive websites using HTML, CSS, and JavaScript. My focus is on building fast, user-friendly, and visually appealing web pages that provide a great experience for visitors.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        
+            <div class="services-box">
+                <i class='bx bxs-palette'></i>
+                <h3>Graphic Design</h3>
+                <p>I design simple, clean, and creative visuals for web and social media. I enjoy working with colors, typography, and layout to make designs that capture attention and express ideas clearly.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        
+            <div class="services-box">
+                <i class='bx bx-bitcoin'></i>
+                <h3>Crypto Trading</h3>
+                <p>Outside of coding, I study crypto markets and basic trading strategies. This helps me understand data, trends, and digital finance — skills that also strengthen my analytical thinking.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <!-- Dynamic skills from JSON -->
+        <div id="dynamic-skills"></div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Achievements</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/cert.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design Certificate</h4>
+                    <p>Earned recognition for completing a web design course focused on HTML, CSS, and responsive layouts.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/certi.avif" alt="">
+                <div class="portfolio-layer">
+                    <h4>Creative Design Award</h4>
+                    <p>Received an award for producing engaging graphic layouts and visual content for student projects.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/cyber.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Cybersecurity Training</h4>
+                    <p>Completed a cybersecurity awareness program, learning safe online practices and data protection basics.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/harvard.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Harvard CS50x</h4>
+                    <p>Explored computer science fundamentals and programming through the Harvard CS50x online course.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/itcert.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>IT Certification</h4>
+                    <p>Achieved certification in IT fundamentals, covering hardware, networking, and basic troubleshooting.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/webdev.webp" alt="">
+                <div class="portfolio-layer">
+                    <h4>Frontend Projects</h4>
+                    <p>Developed small web projects showcasing creativity, clean design, and practical use of JavaScript.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Kent Louie. All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-icontop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="script.js"></script>
+</body>
+</html>
